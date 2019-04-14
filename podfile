@@ -1,0 +1,13 @@
+use_frameworks!
+
+def libraries
+  pod 'Moya'
+  pod 'AFNetworking'
+  pod 'SwiftyJSON'
+  pod  'ObjectMapper'
+end
+  
+target 'api' do
+  platform:ios,'12.0'
+  libraries
+end
